@@ -7,4 +7,4 @@ by Harry
 
 ## 目录
 - 开发文档
-  - [Yizhen F2E Wrokflow](https://github.com/hdwills/Yizhen-F2E/issues/1)
+  - [Yizhen F2E Wrokflow](https://github.com/hdwills/Yizhen-F2E/blob/master/yizhen_f2e_wrokflow.md)
