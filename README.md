@@ -7,4 +7,7 @@ by Harry
 
 ## 目录
 - 开发文档
-  - [Yizhen F2E Wrokflow](https://github.com/hdwills/Yizhen-F2E/blob/master/yizhen_f2e_wrokflow.md)
+    - [Yizhen F2E Wrokflow](https://github.com/hdwills/Yizhen-F2E/blob/master/yizhen_f2e_wrokflow.md)
+
+- 开发规范
+    - [命名规范](https://github.com/hdwills/Yizhen-F2E/blob/master/yizhen-f2e-guidelines-naming.md)
