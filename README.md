@@ -8,6 +8,6 @@ by Harry
 ## 目录
 - 开发文档
     - [Yizhen F2E Wrokflow](https://github.com/hdwills/Yizhen-F2E/blob/master/yizhen_f2e_wrokflow.md)
-
 - 开发规范
-    - [命名规范](https://github.com/hdwills/Yizhen-F2E/blob/master/yizhen-f2e-guidelines-naming.md)
+    - [文件命名规范](https://github.com/hdwills/Yizhen-F2E/blob/master/yizhen-f2e-guidelines-naming.md)
+    - [HTML 编码规范](https://github.com/hdwills/Yizhen-F2E/blob/master/yizhen-f2e-guidelines-html.md)
