@@ -10,3 +10,4 @@
     - [文件命名规范](https://github.com/hdwills/Yizhen-F2E/blob/master/yizhen-f2e-guidelines-naming.md)
     - [HTML 编码规范](https://github.com/hdwills/Yizhen-F2E/blob/master/yizhen-f2e-guidelines-html.md)
     - [CSS 编码规范](https://github.com/hdwills/Yizhen-F2E/blob/master/yizhen-f2e-guidelines-css.md)
+    - [编辑器配置](https://github.com/hdwills/Yizhen-F2E/blob/master/yizhen-f2e-guidelines-config-editor.md)
