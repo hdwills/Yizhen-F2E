@@ -191,7 +191,7 @@ MDN（Mozilla Developer Network）上一片非常好的关于 [shorthand propert
 }
 ```
 
-<h2 id="css-nesting">LESS 和 SASS 中的嵌套</h2>
+<h2 id="css-nesting">SASS 中的嵌套</h2>
 避免非必要的嵌套。这是因为虽然你可以使用嵌套，但是并不意味着应该使用嵌套。只有在必须将样式限制在父元素内（也就是后代选择器），并且存在多个需要嵌套的元素时才使用嵌套。
 ```css
 // Without nesting
@@ -205,7 +205,7 @@ MDN（Mozilla Developer Network）上一片非常好的关于 [shorthand propert
 }
 ```
 
-<h2 id="css-operators">LESS 和 SASS 中的运算符</h2>
+<h2 id="css-operators">SASS 中的运算符</h2>
 避免非必要的嵌套。这是因为虽然你可以使用嵌套，但是并不意味着应该使用嵌套。只有在必须将样式限制在父元素内（也就是后代选择器），并且存在多个需要嵌套的元素时才使用嵌套。
 ```css
 // Bad example
@@ -293,7 +293,7 @@ span { ... }
  * Component section heading
  *
  * Sometimes you need to include optional context for the entire component.
-  * Do that up here if it's important enough.
+ * Do that up here if it's important enough.
  */
 
 .element { ... }
@@ -301,3 +301,7 @@ span { ... }
 /* Contextual sub-component or modifer */
 .element-heading { ... }
 ```
+
+## 致谢
+1. [http://codeguide.co/](http://codeguide.co/)
+2. [http://zoomzhao.github.io/code-guide/](http://zoomzhao.github.io/code-guide/)
