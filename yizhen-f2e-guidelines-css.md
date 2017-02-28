@@ -2,7 +2,7 @@
 
 * [语法](#css-syntax)
 * [声明顺序](#css-declaration-order)
-* [不要使用]@import(#css-improt)
+* [不要使用`@import`](#css-improt)
 * [媒体查询的位置](#css-media-queries)
 * [带前缀的属性](#css-prefixed-properties)
 * [单行规则声明](#css-single-declarations)
@@ -52,7 +52,7 @@
 }
 ```
 
-<h2 id="#css-declaration-order">声明顺序</h2>
+<h2 id="css-declaration-order">声明顺序</h2>
 相关的属性声明应当归为一组，并按照下面的顺序排列：
 
 * Formatting Model `position` / `top` / `right` / `bottom` / `left` / `float` / `display` / `overflow` 等
@@ -93,7 +93,7 @@
 }
 ```
 
-<h2 id="#css-improt">不要使用 `@import`</h2>
+<h2 id="css-improt">不要使用 `@import`</h2>
 与 `<link>` 标签相比，`@import` 指令要慢很多，不光增加了额外的页面请求，还会导致不可预料的问题。替代办法有以下几种：
 
 * 使用多个 <link> 元素
@@ -109,7 +109,7 @@
 </style>
 ```
 
-<h2 id="#css-media-queries">媒体查询（Media query）的位置</h2>
+<h2 id="css-media-queries">媒体查询（Media query）的位置</h2>
 将媒体查询放在尽可能相关规则的附近。不要将他们打包放在一个单一样式文件中或者放在文档底部。如果你把他们分开了，将来只会被大家遗忘。下面给出一个典型的实例。
 
 ```css
@@ -124,7 +124,7 @@
 }
 ```
 
-<h2 id="#css-prefixed-properties">带前缀的属性</h2>
+<h2 id="css-prefixed-properties">带前缀的属性</h2>
 当使用特定厂商的带有前缀的属性时，通过缩进的方式，让每个属性的值在垂直方向对齐，这样便于多行编辑。
 
 ```css
@@ -135,7 +135,7 @@
 }
 ```
 
-<h2 id="#css-single-declarations">单行规则声明</h2>
+<h2 id="css-single-declarations">单行规则声明</h2>
 对于**只包含一条声明**的样式，为了易读性和便于快速编辑，建议将语句放在同一行。对于带有多条声明的样式，还是应当将声明分为多行。
 
 这样做的关键因素是为了错误检测 - 例如，CSS 校验器指出在 20 行有语法错误。如果是单行单条声明，你就不会忽略这个错误；如果是单行多条声明的话，你就要仔细分析避免漏掉错误了。
@@ -158,7 +158,7 @@
 .icon-account { background-position: 0 -40px; }
 ```
 
-<h2 id="#css-shorthand">简写形式的属性声明</h2>
+<h2 id="css-shorthand">简写形式的属性声明</h2>
 在需要显示地设置所有值的情况下（属性简写需要你必须显式设置所有取值），应当尽量限制使用简写形式的属性声明。常见的滥用简写属性声明的情况如下：
 
 * `padding`
@@ -191,7 +191,7 @@ MDN（Mozilla Developer Network）上一片非常好的关于 [shorthand propert
 }
 ```
 
-<h2 id="#css-nesting">LESS 和 SASS 中的嵌套</h2>
+<h2 id="css-nesting">LESS 和 SASS 中的嵌套</h2>
 避免非必要的嵌套。这是因为虽然你可以使用嵌套，但是并不意味着应该使用嵌套。只有在必须将样式限制在父元素内（也就是后代选择器），并且存在多个需要嵌套的元素时才使用嵌套。
 ```css
 // Without nesting
@@ -205,7 +205,7 @@ MDN（Mozilla Developer Network）上一片非常好的关于 [shorthand propert
 }
 ```
 
-<h2 id="#css-operators">LESS 和 SASS 中的运算符</h2>
+<h2 id="css-operators">LESS 和 SASS 中的运算符</h2>
 避免非必要的嵌套。这是因为虽然你可以使用嵌套，但是并不意味着应该使用嵌套。只有在必须将样式限制在父元素内（也就是后代选择器），并且存在多个需要嵌套的元素时才使用嵌套。
 ```css
 // Bad example
@@ -219,7 +219,7 @@ MDN（Mozilla Developer Network）上一片非常好的关于 [shorthand propert
 }
 ```
 
-<h2 id="#css-comments">注释</h2>
+<h2 id="css-comments">注释</h2>
 代码是由人编写并维护的。请确保你的代码能够自描述、注释良好并且易于他人理解。好的代码注释能够传达上下文关系和代码目的。不要简单地重申组件或 class 名称。
 
 对于较长的注释，务必书写完整的句子；对于一般性注解，可以书写简洁的短语。
@@ -237,7 +237,7 @@ MDN（Mozilla Developer Network）上一片非常好的关于 [shorthand propert
 }
 ```
 
-<h2 id="#css-classes">class 命名</h2>
+<h2 id="css-classes">class 命名</h2>
 * class 名称中只能出现小写字符和破折号（dashe）（不是下划线，也不是驼峰命名法）。破折号应当用于相关 class 的命名（类似于命名空间）（例如，.btn 和 .btn-danger）。
 * 避免过度任意的简写。.btn 代表 button，但是 .a 不能表达任何意思。
 * class 名称应当尽可能短，并且意义明确。
@@ -257,7 +257,7 @@ MDN（Mozilla Developer Network）上一片非常好的关于 [shorthand propert
 .tweet-header { ... }
 ```
 
-<h2 id="#css-selectors">选择器</h2>
+<h2 id="css-selectors">选择器</h2>
 * 对于通用元素使用 classes ，这样利于渲染性能的优化。
 * 对于经常出现的组件，避免使用属性选择器（例如，[class^="..."]）。浏览器的性能会受到这些因素的影响。
 * 选择器要尽可能短，并且尽量限制组成选择器的元素个数，建议不要超过 **3** 。
@@ -275,7 +275,7 @@ span { ... }
 .tweet .avatar { ... }
 ```
 
-<h2 id="#css-organization">代码组织</h2>
+<h2 id="css-organization">代码组织</h2>
 * 以组件为单位组织代码段。
 * 制定一致的注释规范。
 * 使用一致的空白符将代码分隔成块，这样利于文档的阅读。
