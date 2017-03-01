@@ -12,10 +12,7 @@ EditorConfig 配置文件导入到项目根目录下，不过一般公共配置�
 #### scss-lint
 
 * 插件安装、配置：
-    - [https://github.com/brigade/scss-lint](https://github.com/brigade/scss-lint)
-        ``` ruby
-        gem install scss_lint
-        ```
+    - [https://github.com/brigade/scss-lint](https://github.com/brigade/scss-lint) `gem install scss_lint`
     - [https://github.com/idok/scss-lint-plugin](https://github.com/idok/scss-lint-plugin)
     - 可以通过上面提供的链接，自己去找下载后本地安装。
     - 可以去编辑器的仓库里在线安装，再进行设置。
