@@ -42,11 +42,11 @@
 * Sublime Text Package Control - [https://packagecontrol.io/installation](https://packagecontrol.io/installation)。在编辑器中按下快捷键 `Ctrl + ``，从上面的地址中粘贴对应的代码到编辑器里，回车执行。这些代码回创建对应的目录了相应的依赖包等。
 * 安装插件
     `ctrl+shift+p`，输入 `ip`。简写的命令(Package Control: Install Package)。看左下角的 loading 状态，等插件目录加载完成后会显示出插件列表，再逐一安装以下插件：
-        + EditorConfig
-        + Sass
-        + SublimeLinter
-        + SublimeLinter-contrib-scss-lint
-        + CSScomb
+    + EditorConfig
+    + Sass
+    + SublimeLinter
+    + SublimeLinter-contrib-scss-lint
+    + CSScomb
 * 实际使用效果
     安装完以上的插件之后，就可以看看实际使用效果了。支持 `*.scss` 语法高亮，SCSS-Lint 也已经生效，见下图 1（代码行处的图标提示，光标定位到当前行之后，底部的状态栏有对应的修正提示）；CSScomb 使用效果见下图2。
 
