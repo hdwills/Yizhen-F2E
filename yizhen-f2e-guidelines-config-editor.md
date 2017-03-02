@@ -6,6 +6,7 @@
 
 ## 配置文件  
 会集中放进这个 gist 里，[Yizhen-F2E Editor Preferences](https://gist.github.com/hdwills/9cfb8654d653b616dbc824a90222f402)
+
 1. EditorConfig - [.editorconfig](https://gist.github.com/hdwills/9cfb8654d653b616dbc824a90222f402#file-editorconfig)
 2. CSScomb - [.csscomb.json](https://gist.github.com/hdwills/9cfb8654d653b616dbc824a90222f402#file-csscomb-json)
 3. SCSS-Lint - [.scss-lint.yml](https://gist.github.com/hdwills/9cfb8654d653b616dbc824a90222f402#file-scss-lint-yml)
