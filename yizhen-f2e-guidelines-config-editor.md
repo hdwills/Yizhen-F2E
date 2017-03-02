@@ -1,13 +1,11 @@
 # 编辑器配置
 
 ## 插件安装
-
 1. SCSS-Lint - [https://github.com/brigade/scss-lint](https://github.com/brigade/scss-lint) `gem install scss_lint`
 2. CSScomb - [https://github.com/csscomb/csscomb.js](https://github.com/csscomb/csscomb.js) `npm install csscomb -g`
 
 ## 配置文件  
 会集中放进这个 gist 里，[Yizhen-F2E Editor Preferences](https://gist.github.com/hdwills/9cfb8654d653b616dbc824a90222f402)
-
 1. EditorConfig - [.editorconfig](https://gist.github.com/hdwills/9cfb8654d653b616dbc824a90222f402#file-editorconfig)
 2. CSScomb - [.csscomb.json](https://gist.github.com/hdwills/9cfb8654d653b616dbc824a90222f402#file-csscomb-json)
 3. SCSS-Lint - [.scss-lint.yml](https://gist.github.com/hdwills/9cfb8654d653b616dbc824a90222f402#file-scss-lint-yml)
