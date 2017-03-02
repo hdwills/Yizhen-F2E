@@ -5,8 +5,6 @@
 1. SCSS-Lint - [https://github.com/brigade/scss-lint](https://github.com/brigade/scss-lint) `gem install scss_lint`
 2. CSScomb - [https://github.com/csscomb/csscomb.js](https://github.com/csscomb/csscomb.js) `npm install csscomb -g`
 
----
-
 ## 配置文件  
 会集中放进这个 gist 里，[Yizhen-F2E Editor Preferences](https://gist.github.com/hdwills/9cfb8654d653b616dbc824a90222f402)
 
@@ -14,14 +12,12 @@
 2. CSScomb - [.csscomb.json](https://gist.github.com/hdwills/9cfb8654d653b616dbc824a90222f402#file-csscomb-json)
 3. SCSS-Lint - [.scss-lint.yml](https://gist.github.com/hdwills/9cfb8654d653b616dbc824a90222f402#file-scss-lint-yml)
 
----
-
 ## 编辑器设置
 
-1. IntelliJ IDEA
+相关个性化的设置，个人根据喜好去配置即可。  
+其余相关的规范文件，都以文档为主，去逐一配置。推荐 [JetBrarins](https://www.jetbrains.com/) 旗下的 IDE 或者 [Sublime Text](https://www.sublimetext.com/)。
 
-相关个性化的设置，个人根据喜好去配置即可。
-EditorConfig 配置文件导入到项目根目录下，不过一般公共配置文件会提交到项目中，如果 checkout 的项目中没有发现此配置文件，可以自主下载。
+1. IntelliJ IDEA
 
 * scss-lint：
     - [https://github.com/idok/scss-lint-plugin](https://github.com/idok/scss-lint-plugin)
@@ -39,4 +35,22 @@ EditorConfig 配置文件导入到项目根目录下，不过一般公共配置�
 
 * csscomb：
     - jetbrains-csscomb - [https://github.com/csscomb/jetbrains-csscomb](https://github.com/csscomb/jetbrains-csscomb)
-    - TODO：但是实际使用情况，并非 repo 里描述的那样，在 win 里没能完成正确配置，有待继续跟进。同时也尝试了其余的 jetbrains plugins 目前还没有搜到更合适的，需要注意的是这里产出的 scss 源码最好也是符合各属性的声明顺序。
+    - TODO：但是实际使用情况，并非 repo 里描述的那样，在 win 里没能完成正确配置，有待继续跟进。同时也尝试了其余的 jetbrains plugins 目前还没有搜到更合适的，需要注意的是这里产出的 scss 源码最好也是符合各属性的声明顺序，即使我们最终会用工具去统一输出。
+
+2. Sublime Text 3
+
+* Sublime Text Package Control - [https://packagecontrol.io/installation](https://packagecontrol.io/installation)。在编辑器中按下快捷键 `Ctrl + ``，从上面的地址中粘贴对应的代码到编辑器里，回车执行。这些代码回创建对应的目录了相应的依赖包等。
+* 安装插件
+    `ctrl+shift+p`，输入 `ip`。简写的命令(Package Control: Install Package)。看左下角的 loading 状态，等插件目录加载完成后会显示出插件列表，再逐一安装以下插件：
+        + EditorConfig
+        + Sass
+        + SublimeLinter
+        + SublimeLinter-contrib-scss-lint
+        + CSScomb
+* 实际使用效果
+    安装完以上的插件之后，就可以看看实际使用效果了。支持 `*.scss` 语法高亮，SCSS-Lint 也已经生效，见下图 1（代码行处的图标提示，光标定位到当前行之后，底部的状态栏有对应的修正提示）；CSScomb 使用效果见下图2。
+
+    ![SCSS-Lint](https://raw.githubusercontent.com/hdwills/Yizhen-F2E/master/assets/images/edc_st3_150724.png)
+
+    ![CSScomb](https://raw.githubusercontent.com/hdwills/Yizhen-F2E/master/assets/images/edc_st3_150240.gif)
+
