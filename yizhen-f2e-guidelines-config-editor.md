@@ -17,7 +17,7 @@
 相关个性化的设置，个人根据喜好去配置即可。  
 其余相关的规范文件，都以文档为主，去逐一配置。推荐 [JetBrarins](https://www.jetbrains.com/) 旗下的 IDE 或者 [Sublime Text](https://www.sublimetext.com/)。
 
-1. IntelliJ IDEA
+### IntelliJ IDEA
 
 * scss-lint：
     - [https://github.com/idok/scss-lint-plugin](https://github.com/idok/scss-lint-plugin)
@@ -37,7 +37,7 @@
     - jetbrains-csscomb - [https://github.com/csscomb/jetbrains-csscomb](https://github.com/csscomb/jetbrains-csscomb)
     - TODO：但是实际使用情况，并非 repo 里描述的那样，在 win 里没能完成正确配置，有待继续跟进。同时也尝试了其余的 jetbrains plugins 目前还没有搜到更合适的，需要注意的是这里产出的 scss 源码最好也是符合各属性的声明顺序，即使我们最终会用工具去统一输出。
 
-2. Sublime Text 3
+### Sublime Text 3
 
 * Sublime Text Package Control - [https://packagecontrol.io/installation](https://packagecontrol.io/installation)。在编辑器中按下快捷键 `Ctrl + ``，从上面的地址中粘贴对应的代码到编辑器里，回车执行。这些代码回创建对应的目录了相应的依赖包等。
 * 安装插件
