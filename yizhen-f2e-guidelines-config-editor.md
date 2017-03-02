@@ -53,4 +53,3 @@
     ![SCSS-Lint](https://raw.githubusercontent.com/hdwills/Yizhen-F2E/master/assets/images/edc_st3_150724.png)
 
     ![CSScomb](https://raw.githubusercontent.com/hdwills/Yizhen-F2E/master/assets/images/edc_st3_150240.gif)
-
